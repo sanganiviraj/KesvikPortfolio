@@ -22,7 +22,7 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
     id: 101,
     title: 'Start Observing',
     category: 'Viral Shorts & Hooks',
-    client: 'Nikunj Ramani • Informational Creator',
+    client: 'Personal Brand Breakdown',
     views: '1.8M Views',
     duration: '0:45',
     aspectRatio: '9:16',
@@ -43,7 +43,7 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
     id: 102,
     title: 'Dwarka',
     category: 'Personal Branding Reels',
-    client: 'Meet Vekariya • Personal Branding',
+    client: 'Personal Branding & Creator Reel',
     views: '2.4M Views',
     duration: '0:58',
     aspectRatio: '9:16',
@@ -58,7 +58,7 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
     id: 103,
     title: 'Custom Pieces Jewellery',
     category: 'Viral Shorts & Hooks',
-    client: 'Pragalbh Jewels • Personal Branding',
+    client: 'Pragalbh Jewels (Brand Client)',
     views: '1.8M Views',
     duration: '0:18',
     aspectRatio: '9:16',
@@ -90,14 +90,14 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
             <Zap size={14} /> 5+ Years Premiere Pro & After Effects Specialist
           </span>
           <span className="flex items-center gap-2 text-xs text-slate-300 font-bold bg-brand-purple/15 px-3.5 py-1.5 rounded-full border-0 shadow-md">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-sm shadow-emerald-400"></span> 
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-sm shadow-emerald-400"></span>
             Open For Personal Branding & Creator Projects
           </span>
         </div>
 
         {/* Main Headline */}
         <h1 className="font-heading font-extrabold text-4xl sm:text-6xl lg:text-7xl leading-tight max-w-5xl mb-4">
-          Scale Your <span className="bg-gradient-to-r from-purple-400 via-cyan-400 to-rose-400 bg-clip-text text-transparent">Personal Brand</span> <br />
+          Scale Your <span className="gradient-text-vibrant">Personal Brand</span> <br />
           With High-Retention 9:16 Viral Reels.
         </h1>
 
@@ -108,8 +108,8 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
         {/* Hero CTAs */}
         <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
           {/* Primary CTA */}
-          <button 
-            className="h-[52px] px-7 rounded-full text-sm font-extrabold text-white bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-600 shadow-xl shadow-purple-600/40 hover:shadow-purple-600/60 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer inline-flex items-center justify-center gap-2.5 border-0" 
+          <button
+            className="h-[52px] px-7 rounded-full text-sm font-extrabold text-white bg-gradient-to-r from-purple-600 via-indigo-600 to-cyan-600 shadow-xl shadow-purple-600/40 hover:shadow-purple-600/60 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer inline-flex items-center justify-center gap-2.5 border-0"
             onClick={() => handlePhoneClick(projectDwarka)}
           >
             <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center shrink-0">
@@ -119,8 +119,8 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
           </button>
 
           {/* Secondary CTA */}
-          <button 
-            className="h-[52px] px-7 rounded-full text-sm font-extrabold text-white bg-[#101424] border border-brand-purple/50 shadow-xl shadow-purple-950/60 hover:bg-brand-purple/30 hover:border-brand-cyan hover:shadow-brand-cyan/20 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer inline-flex items-center justify-center gap-2.5" 
+          <button
+            className="h-[52px] px-7 rounded-full text-sm font-extrabold text-white bg-[#101424] border border-brand-purple/50 shadow-xl shadow-purple-950/60 hover:bg-brand-purple/30 hover:border-brand-cyan hover:shadow-brand-cyan/20 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer inline-flex items-center justify-center gap-2.5"
             onClick={handleBookClick}
           >
             <span>Book Project Discussion</span>
@@ -130,9 +130,9 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
 
         {/* 📱 9:16 TRIPLE REAL MOBILE MOCKUP DISPLAY */}
         <div className="w-full max-w-5xl mb-8 relative flex items-center justify-center gap-3 sm:gap-6 py-2">
-          
+
           {/* 👈 LEFT MOBILE PREVIEW (1. Start Observing) */}
-          <div 
+          <div
             className="hidden md:flex w-52 sm:w-60 aspect-[9/16] rounded-[32px] border-0 bg-black overflow-hidden relative shadow-2xl scale-95 opacity-90 hover:opacity-100 hover:scale-100 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer group"
             onClick={() => handlePhoneClick(projectStartObserving)}
           >
@@ -142,9 +142,9 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
             </div>
 
             {/* Start Observing Cover Poster Image */}
-            <img 
+            <img
               src={projectStartObserving.thumbnail}
-              alt={projectStartObserving.title} 
+              alt={projectStartObserving.title}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
 
@@ -154,7 +154,7 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
                 <Play size={18} fill="currentColor" />
               </div>
             </div>
-            
+
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-black/20 p-3.5 flex flex-col justify-end z-10 pointer-events-none">
               <div className="bg-black/85 backdrop-blur-md p-2.5 rounded-xl border-0 text-center shadow">
                 <span className="font-extrabold text-xs text-white group-hover:text-purple-300 transition-colors block">Start Observing</span>
@@ -163,7 +163,7 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
           </div>
 
           {/* 🎯 CENTER MAIN MOBILE MOCKUP (2. Dwarka) */}
-          <div 
+          <div
             className="w-72 sm:w-80 aspect-[9/16] rounded-[36px] border-0 bg-black overflow-hidden relative shadow-2xl shadow-brand-purple/60 cursor-pointer group transition-all duration-300 transform hover:-translate-y-2 z-20"
             onClick={() => handlePhoneClick(projectDwarka)}
           >
@@ -173,12 +173,12 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
             </div>
 
             {/* Dwarka Optimized Video Stream */}
-            <video 
+            <video
               src={projectDwarka.videoUrl}
               poster={projectDwarka.thumbnail}
-              autoPlay 
-              loop 
-              muted 
+              autoPlay
+              loop
+              muted
               playsInline
               className="w-full h-full object-cover"
             />
@@ -210,7 +210,7 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
           </div>
 
           {/* 👉 RIGHT MOBILE PREVIEW (3. Custom Pieces Jewellery) */}
-          <div 
+          <div
             className="hidden md:flex w-52 sm:w-60 aspect-[9/16] rounded-[32px] border-0 bg-black overflow-hidden relative shadow-2xl scale-95 opacity-90 hover:opacity-100 hover:scale-100 transition-all duration-300 transform hover:-translate-y-2 cursor-pointer group"
             onClick={() => handlePhoneClick(projectJewellery)}
           >
@@ -220,9 +220,9 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
             </div>
 
             {/* Custom Pieces Jewellery Cover Poster Image */}
-            <img 
+            <img
               src={projectJewellery.thumbnail}
-              alt={projectJewellery.title} 
+              alt={projectJewellery.title}
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
 
@@ -295,8 +295,8 @@ export default function Hero({ onOpenShowreel, onSelectProject, onScrollTo }) {
           <div className="flex overflow-hidden py-3">
             <div className="animate-marquee-slow flex items-center gap-6 whitespace-nowrap">
               {[...TICKER_ITEMS, ...TICKER_ITEMS, ...TICKER_ITEMS, ...TICKER_ITEMS].map((item, idx) => (
-                <div 
-                  key={idx} 
+                <div
+                  key={idx}
                   className="flex items-center gap-3 bg-brand-purple/15 text-slate-200 px-5 py-2.5 rounded-full font-heading font-extrabold text-xs tracking-wider border-0 shadow-lg hover:bg-brand-purple/30 hover:text-white transition-colors cursor-pointer"
                 >
                   <span className="w-2 h-2 rounded-full bg-brand-cyan shadow-sm shadow-brand-cyan"></span>
